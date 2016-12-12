@@ -49,7 +49,7 @@ Some further features to be included are:
 
 # How to interact with the upstream analysis workflow 
 
-```!fsharp
+```fsharp
 
 #r "../packages/NetBioCore.PCL.2.0.150722/lib/net45/Bio.Core.dll"
 #r "../packages/NetBioWeb.PCL.2.0.150722/lib/Bio.WebServices.dll"
