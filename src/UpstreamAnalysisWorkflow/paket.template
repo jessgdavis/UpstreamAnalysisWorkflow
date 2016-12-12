@@ -1,0 +1,25 @@
+type project
+title
+    UpstreamAnalysisWorkflow
+owners
+    Jessica Davis
+authors 
+    Jessica Davis
+projectUrl
+    https://github.com/jessicagrace17/UpstreamAnalysisWorkflow/jessicagrace17/UpstreamAnalysisWorkflow
+iconUrl
+    https://raw.githubusercontent.com/jessicagrace17/UpstreamAnalysisWorkflow/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/jessicagrace17/UpstreamAnalysisWorkflow/jessicagrace17/UpstreamAnalysisWorkflow/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    bioinformatics, fsharp, type provider, .NET Bio
+summary
+    A project to simplify the process of preparing a set of genes for upstream analysis. Uses the Bi-directional best hit method to identify homologous genes and finds their upstream regions. Makes use of the Experimental-dotnetbioGenBankProvider.
+description
+    A project to simplify the process of preparing a set of genes for upstream analysis. Uses the Bi-directional best hit method to identify homologous genes and finds their upstream regions. Makes use of the Experimental-dotnetbioGenBankProvider.
+
+
