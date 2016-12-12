@@ -1,17 +1,17 @@
-## Upstream Analysis Workflow ##
+# Upstream Analysis Workflow 
 This workflow aims to automate the majority of the work required to prepare a set of genes for upstream analysis.
 
-### Instructions ###
-The code for this component can be found in the 'workflowlib' folder. The project contains a script file called 'Script.fsx' which steps through how to make use of the workflow. These instructions can also be viewed on the wiki [here](../../wiki/workflow).
+## Instructions 
 
-### Use Cases ###
-#### Use Case 1 - Find orthologs ####
+
+## Use Cases ###
+### Use Case 1 - Find orthologs 
 As a user, I have a transcription factor (e.g. Fur) and I know it regulates 80 genes in E.coli. I also have a list of 10 target genomes that I want to study. I want to find, of the 80 genes in E.coli, how many orthologs exists in the 10 target genomes using the reciprocal best hit method.
 
-#### Use Case 2 - Find upstream regions ####
+### Use Case 2 - Find upstream regions 
 As a user, once the reciprocal best hits are found, I want to be able to examine both the upstream intergenic region, and the 1000bp upstream region, of a particular hit.
 
-#### Use Case 3 - Queries on results ####
+### Use Case 3 - Queries on results
 As a user, I want to be able to perform queries on a result set, where a result set has the information as represented in the figure below.
 The queries I want to be able to perform are:
 
@@ -29,7 +29,7 @@ Once I have this information, I want to be able to:
 
 ![workflowdata.png](https://bitbucket.org/repo/gaaxA5/images/3889694038-workflowdata.png)
 
-### Comments and Known Issues ###
+## Comments and Known Issues
 At this stage, the upstream workflow is very much in the experimental stage, and still needs rigorous testing, as well as the addition of some further 'nice to have' features. 
 Some known issues which are currently being addressed are:
 
@@ -47,7 +47,7 @@ Some further features to be included are:
 
 * An algorithm to retrieve the intergenic upstream region and not just the 1000bp upstream region needs to be developed.
 
-# How to interact with the upstream analysis workflow #
+# How to interact with the upstream analysis workflow 
 
 ```!fsharp
 
