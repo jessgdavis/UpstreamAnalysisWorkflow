@@ -27,7 +27,7 @@ Once I have this information, I want to be able to:
 
 * filter out results which do not meet a specified evalue threshold
 
-![workflowdata.png](https://bitbucket.org/repo/gaaxA5/images/3889694038-workflowdata.png)
+![workflowdata.png](https://github.com/jessicagrace17/UpstreamAnalysisWorkflow/blob/master/docs/files/img/workflowdata.png)
 
 ## Comments and Known Issues
 At this stage, the upstream workflow is very much in the experimental stage, and still needs rigorous testing, as well as the addition of some further 'nice to have' features. 
