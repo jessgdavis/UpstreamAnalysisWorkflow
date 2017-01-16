@@ -74,6 +74,9 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <Reference Include="Experimental-dotnetbioGenBankProvider">
+      <HintPath>..\..\lib\Experimental-dotnetbioGenBankProvider.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Choose>
     <When Condition="$(TargetFrameworkIdentifier) == 'MonoAndroid'">
